@@ -1,6 +1,7 @@
 /* core modules */
 var path = require("path");
 var http = require("http");
+require('dotenv').config();
 
 global.appRoot = path.resolve(__dirname); // define application's root directory as a global variable
 

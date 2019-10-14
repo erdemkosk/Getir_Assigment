@@ -1,4 +1,8 @@
-var httpPort = 3000;
+
+
+var httpPort = process.env.PORT || 3000;
+
+
 
 var httpOnListening = function () {
     console.log("HTTP server is running on port " + httpPort + ".");

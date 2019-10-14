@@ -19,4 +19,5 @@ app.get('/', (req, res) => res.send('Welcome to Getir Assigment Api Service!'));
 app.get('/api', (req, res) => res.send('Welcome to Getir Assigment Api Service!'));
 
 app.use('/api/record',recordRoutes)
+
 module.exports = app;
